@@ -1,0 +1,56 @@
+
+.main{
+    display: flex;
+    width: 1100px;
+    height: 100vh;
+    gap: 100px;
+    
+   
+}
+.subtop{
+    width: 400px;
+    height: 250px;
+    margin-top: 50px;
+}
+.top{
+width: 400px;
+height: 250px;
+ display: flex;
+ flex-direction: column; 
+ align-items: center;
+ justify-content: center;
+ margin-top: 50px;
+ gap:10px;
+ }
+.links{
+ display: flex;
+ color: aliceblue;
+
+ 
+   
+}
+.links :hover{
+    
+}
+.line{
+    
+    text-decoration: none;
+
+}
+.line :hover{
+    color: brown;
+}
+
+.img1{
+    width: 300px;
+    height: 250px;
+    margin-top: 50px;
+    
+}
+
+@media screen and(max-with:768px) {
+    h1,h6{
+        display: none;
+    }
+    
+}
